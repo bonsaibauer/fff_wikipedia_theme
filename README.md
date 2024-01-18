@@ -41,7 +41,11 @@ And Replace:
 
 	$wgSitename = "FFF Infopoint";
 	$wgMetaNamespace = "FFF Infopoint";
-	$wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
+	$wgLogo = $wgScriptPath . '/images/fff_earth_120px.png';
+
+Verschiebe das Logo von Dateipfad:
+.../skins/Foreground/logo/fff_earth_120px.png
+zu .../images/fff_earth_120px.png
 
 -------------------------------------------
 
