@@ -168,7 +168,7 @@ alert.label a {
 }
 code {
 	font-weight: normal;
-	color: #222222;
+	color: #2222;
 }
 small {
 	font-size: 80%;
@@ -701,28 +701,62 @@ h1#firstHeading {
 }
 }
 
-/* Don't like the black top bar? Copy this into your Foreground.css and change the colors
+.top-bar,
+.top-bar-section ul,
+.top-bar-section ul li.active > a,
+.top-bar-section li a:not(.button),
+.top-bar-section .has-form {
+    background: #1B7340;
+}
+
+
+.top-bar-section > ul > .divider,
+.top-bar-section > ul > [role="separator"] {
+  border-color: #1B7340;
+}
+
+/* Custom Foreground menubar colors */
+
+/* Beginn Customizations 
 
 .top-bar,
 .top-bar-section ul,
 .top-bar-section ul li.active > a,
 .top-bar-section li a:not(.button),
 .top-bar-section .has-form {
-    background: #333333;
+    background: #1B7340 ;
+    color: #1B7340;
 }
-
 
 .top-bar-section > ul > .divider,
 .top-bar-section > ul > [role="separator"] {
-  border-color: black;
+    border-color: #1B7340 ;
 }
 
-*/
+.top-bar-section ul li.hover > a,
+.top-bar-section ul li ul.dropdown li.hover > a {
+    background: #1B7340;
+}
+
+.top-bar-section ul li ul.dropdown li > a {
+    background: #1B7340;
+}
+
+Ende Customizations */
+
+
+
+
+
+
+
+
+
 
 .vertical-divider {
 	width: 100%;
 	display: block;
-	background: #1A1A1A;
+	background:  #1A1A1A;
 	height: 1px;
 }
 .top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li.active:not(.has-form) a:hover:not(.button) {
@@ -852,7 +886,7 @@ alert.label a {
 }
 code {
 	font-weight: normal;
-	color: #222222;
+	color: #2222;
 }
 small {
 	font-size: 80%;
@@ -1643,3 +1677,4 @@ table.floatleft {
         margin: .5em auto;
     }
 }
+
