@@ -42,3 +42,14 @@ And Replace:
 	$wgSitename = "FFF Infopoint";
 	$wgMetaNamespace = "FFF Infopoint";
 	$wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
+
+-------------------------------------------
+
+![Bild 18 01 24 um 20 18](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/1e46ab0d-3d6e-4cb5-b855-2923e4a699c0)
+![Bild 18 01 24 um 20 21](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/479610e5-bc84-4dc1-adf5-27621b4435de)
+![Bild 18 01 24 um 20 19](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/6f774f17-1f2c-432c-a0b8-14e1bd174be4)
+![Bild 18 01 24 um 20 19 (1)](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/9e49dac0-1dd3-4550-a1c7-cf80262072db)
+
+
+
+
