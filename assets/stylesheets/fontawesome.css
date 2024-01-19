@@ -17,6 +17,10 @@
 #n-help a:before {content: "\f128";}
 #n-help-mediawiki a:before {content: "\f128";}
 
+/* -- About Us -- */
+#n-Forderungen a::before {content: "\f015";}
+#n-Unsere-Forderungen a::before {content: "\f015";}
+
 /* -- Toolbox -- */
 #t-whatlinkshere a:before {content: "\f047";}
 #t-recentchangeslinked a:before {content: "\f0c9";}
