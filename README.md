@@ -20,7 +20,7 @@ Once the skin is in place add one the following lines to your "LocalSettings.php
 $wgSitename = 'FFF Infopoint';
 $wgMetaNamespace = 'Fridays for Future Wiki';
 $wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
-$wgDefaultSkin="Foreground";
+$wgDefaultSkin='Foreground';
 ```
 
 ### Add these settings:
@@ -48,7 +48,7 @@ $wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
 
 ## Wiki-Settings
 
-### We need to update Mediawiki:Sidebar for the best experience on your wiki:
+### We need to update Mediawiki:Sidebar:
 
 ```
 * navigation
