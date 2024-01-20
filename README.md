@@ -25,7 +25,6 @@ Once the skin is in place add one the following lines to your "LocalSettings.php
 ```
 $wgSitename = 'FFF Infopoint';
 $wgMetaNamespace = 'Fridays for Future Wiki';
-$wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 $wgDefaultSkin='Foreground';
 ```
 
@@ -50,6 +49,8 @@ $wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
 	  'useAddThisShare' => '',
 	  'useAddThisFollow' => ''
      ];
+
+$wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 ```
 
 ## Wiki-Settings
