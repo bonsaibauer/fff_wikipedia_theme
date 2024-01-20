@@ -58,47 +58,50 @@ $wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 ### We need to update Mediawiki:Sidebar:
 
 ```
-* navigation
-** mainpage|mainpage-description
+* Mitmachen
+** Wiki - Einführung|Wie schreibe ich einen Artikel?
 ** recentchanges-url|recentchanges
+** Special:AllPages|Alle Seiten
+** Spezial:Kategorien|Alle Kategorien
 ** randompage-url|randompage
 ** helppage|help
 * SEARCH
 * TOOLBOX
 
-*Über uns
-** Forderungen|Forderungen
-** Nationale Forderungen | Unsere Forderungen
-** Kampagnenübersicht|Kampagnenübersicht
+* Über uns
+** Forderungen|Unsere Forderungen
+** Kampagnenübersicht|Unsere Kampagnen
 ** FFF Glossar | FFF Glossar
 
-*Demo
+* Demo
 ** FFF-Tools|FFF-Tools
 ** Streikzahlen eintragen|Streikzahlen eintragen
 ** Generatoren|Generatoren
 ** Pressearbeit für OGs|Pressearbeit für OGs
 ** Corporate-Identity | Corporate Identity
 
-*Organe
+* Gruppen
 ** Ortsgruppen| Ortsgruppen
 ** Bundesebene | Bundesebene 
 ** Arbeitsgruppen| Arbeitsgruppen
 ** Projektgruppen | Projektgruppen
 ** Wissensgruppen | Wissensgruppen
-** Plena, Safespaces & Foren | Plena, Safespaces & Foren
+
+* Vernetzung
 ** FFF Call | FFF Call
+** Plena, Safespaces & Foren | Plena, Safespaces & Foren
 ** Gremien & gewählte Teams | Gremien
 ** Communication Task Force | CTF
 ** PlenAG-Vernetzung | PlenAG-Vernetzung
 ** For Future Bewegungen | For Future Bündnis
 
-*Service
+* Service
 ** Übersicht|Übersicht
 ** Formulare|Formulare
 ** Infogruppen|Infogruppen
 ** Finanzbericht|Finanzbericht
 
-*Konzepte
+* Konzepte
 ** FINTA-Strukturen|FINTA-Strukturen
 ** Strukturpapier|Strukturpapier
 ** Finanzkonzept|Finanzkonzept
@@ -106,13 +109,6 @@ $wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 ** Pressekonzept|Pressekonzept
 ** Chatkonzpet|Chatkonzept
 ** Öffentlichkeitsarbeit bzgl. SboGs|Öffentlichkeitsarbeit bzgl. SboGs
-
-*Wiki - Mitarbeit
-** Special:AllPages|Alle Seiten
-** Spezial:Kategorien|Alle Kategorien
-** Wiki-Checklist|Wiki - Checkliste
-** Wiki-Kodex|Wiki - CoC
-** Wiki-Aufbau|Wiki - Aufbau
 ```
 
 -------------------------------------------
