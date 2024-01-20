@@ -1,14 +1,12 @@
-# FFF-Foreground Skin für Mediawiki's
+# FFForeground Theme für wiki.fridaysforfuture.de
 
-[MediaWiki](https://www.mediawiki.org) skin that focuses on putting your content in the *foreground*. It supports
-responsive layouts and has classes predefined for [Semantic MediaWiki](https://www.semantic-mediawiki.org/).
-Built on the [Zurb Foundation](http://foundation.zurb.com) CSS framework.
+Das Redesign von wiki.fridaysforfuture.de, basiert auf Foreground https://github.com/wikimedia/mediawiki-skins-Foreground und wurde nach den Corporate Identity Farben erstellt.
 
 ## Download
 
-First, copy the Foreground source files, you can use git to clone the repository, which makes it very easy to update the code, using:
+First, copy the Foreground source files in Medaiwki Path /skins, you can use git to clone the repository, which makes it very easy to update the code, using:
 
-    git clone https://github.com/bonsaibauer/fff-foreground-theme.git Foreground
+    git clone https://github.com/bonsaibauer/ffforeground-theme.git Foreground
 
 After that, you can issue `git pull` to update the code at anytime.
 
@@ -16,12 +14,19 @@ After that, you can issue `git pull` to update the code at anytime.
 
 Once the skin is in place add one the following lines to your "LocalSettings.php" file.
 
-	wfLoadSkin( 'Foreground' );
-	$wgDefaultSkin = 'foreground';
-# Foreground is specific, so lets disable other skins
-    	$wgSkipSkins = array( 'cologneblue', 'modern', 'monobook', 'vector' );
+### Update these settings:
 
-    $wgForegroundFeatures = [
+$wgSitename = "FFF Infopoint";
+$wgMetaNamespace = "Fridays for Future Wiki";
+$wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
+$wgDefaultSkin="Foreground";
+
+### Add these settings:
+
+$wfLoadSkin( 'Foreground' );
+$wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
+
+     $wgForegroundFeatures = [
       'showActionsForAnon' => true,
       'NavWrapperType' => 'divonly',
       'showHelpUnderTools' => true,
@@ -34,20 +39,71 @@ Once the skin is in place add one the following lines to your "LocalSettings.php
 	  'addThisPUBID' => '',
 	  'useAddThisShare' => '',
 	  'useAddThisFollow' => ''
-    ];
+     ];
 
+## Wiki-Settings
 
-And Replace: 
+### We need to update Mediawiki:Sidebar for the best experience on your wiki:
 
-	$wgSitename = "FFF Infopoint";
-	$wgMetaNamespace = "FFF Infopoint";
-	$wgLogo = $wgScriptPath . '/images/fff_earth_120px.png';
+* navigation
+** mainpage|mainpage-description
+** recentchanges-url|recentchanges
+** randompage-url|randompage
+** helppage|help
+* SEARCH
+* TOOLBOX
 
-Verschiebe das Logo von Dateipfad:
-.../skins/Foreground/logo/fff_earth_120px.png
-zu .../images/fff_earth_120px.png
+*Über uns
+** Forderungen|Forderungen
+** Nationale Forderungen | Unsere Forderungen
+** Kampagnenübersicht|Kampagnenübersicht
+** FFF Glossar | FFF Glossar
+
+*Demo
+** FFF-Tools|FFF-Tools
+** Streikzahlen eintragen|Streikzahlen eintragen
+** Generatoren|Generatoren
+** Pressearbeit für OGs|Pressearbeit für OGs
+** Corporate-Identity | Corporate Identity
+
+*Organe
+** Ortsgruppen| Ortsgruppen
+** Bundesebene | Bundesebene 
+** Arbeitsgruppen| Arbeitsgruppen
+** Projektgruppen | Projektgruppen
+** Wissensgruppen | Wissensgruppen
+** Plena, Safespaces & Foren | Plena, Safespaces & Foren
+** FFF Call | FFF Call
+** Gremien & gewählte Teams | Gremien
+** Communication Task Force | CTF
+** PlenAG-Vernetzung | PlenAG-Vernetzung
+** For Future Bewegungen | For Future Bündnis
+
+*Service
+** Übersicht|Übersicht
+** Formulare|Formulare
+** Infogruppen|Infogruppen
+** Finanzbericht|Finanzbericht
+
+*Konzepte
+** FINTA-Strukturen|FINTA-Strukturen
+** Strukturpapier|Strukturpapier
+** Finanzkonzept|Finanzkonzept
+** Rechtshilfe Finanzkonzept|Rechtshilfe Finanzkonzept
+** Pressekonzept|Pressekonzept
+** Chatkonzpet|Chatkonzept
+** Öffentlichkeitsarbeit bzgl. SboGs|Öffentlichkeitsarbeit bzgl. SboGs
+
+*Wiki - Mitarbeit
+** Special:AllPages|Alle Seiten
+** Spezial:Kategorien|Alle Kategorien
+** Wiki-Checklist|Wiki - Checkliste
+** Wiki-Kodex|Wiki - CoC
+** Wiki-Aufbau|Wiki - Aufbau
+
 
 -------------------------------------------
+# Example
 
 ![Bild 18 01 24 um 20 18](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/1e46ab0d-3d6e-4cb5-b855-2923e4a699c0)
 ![Bild 18 01 24 um 20 21](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/479610e5-bc84-4dc1-adf5-27621b4435de)
