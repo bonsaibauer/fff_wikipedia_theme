@@ -31,7 +31,7 @@ $wgDefaultSkin='Foreground';
 
 ### Add these settings:
 ```
-$wfLoadSkin( 'Foreground' );
+wfLoadSkin( 'Foreground' );
 $wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
 ```
 
