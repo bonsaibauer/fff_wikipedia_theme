@@ -5,9 +5,9 @@ Das Redesign von wiki.fridaysforfuture.de, basiert auf Foreground https://github
 ## Download
 
 First, copy the Foreground source files in Medaiwki Path /skins, you can use git to clone the repository, which makes it very easy to update the code, using:
-
+```
     git clone https://github.com/bonsaibauer/ffforeground-theme.git Foreground
-
+```
 After that, you can issue `git pull` to update the code at anytime.
 
 ## Setup
@@ -16,16 +16,20 @@ Once the skin is in place add one the following lines to your "LocalSettings.php
 
 ### Update these settings:
 
-$wgSitename = "FFF Infopoint";
-$wgMetaNamespace = "Fridays for Future Wiki";
+```
+$wgSitename = 'FFF Infopoint';
+$wgMetaNamespace = 'Fridays for Future Wiki';
 $wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 $wgDefaultSkin="Foreground";
+```
 
 ### Add these settings:
-
+```
 $wfLoadSkin( 'Foreground' );
 $wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
+```
 
+```
      $wgForegroundFeatures = [
       'showActionsForAnon' => true,
       'NavWrapperType' => 'divonly',
@@ -40,11 +44,13 @@ $wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
 	  'useAddThisShare' => '',
 	  'useAddThisFollow' => ''
      ];
+```
 
 ## Wiki-Settings
 
 ### We need to update Mediawiki:Sidebar for the best experience on your wiki:
 
+```
 * navigation
 ** mainpage|mainpage-description
 ** recentchanges-url|recentchanges
@@ -100,7 +106,7 @@ $wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
 ** Wiki-Checklist|Wiki - Checkliste
 ** Wiki-Kodex|Wiki - CoC
 ** Wiki-Aufbau|Wiki - Aufbau
-
+```
 
 -------------------------------------------
 # Example
