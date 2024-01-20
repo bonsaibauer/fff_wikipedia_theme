@@ -10,7 +10,7 @@ First, copy the Foreground source files in Medaiwki Path /skins, you can use git
 ```
 After that, you can issue `git pull` to update the code at anytime.
 ```
-    cd /var/www/hmtl/skins/Foreground
+    cd /var/www/html/skins/Foreground
 ```
 ```
     git pull https://github.com/bonsaibauer/ffforeground-theme.git
