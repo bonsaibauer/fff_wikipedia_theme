@@ -35,7 +35,15 @@
 #n-Bundesebene a::before {content: "\f0e6";}
 #n-Arbeitsgruppen a::before {content: "\f085";}
 #n-Projektgruppen a::before {content: "\f0a1";}
-#n-Wissengruppen a::before {content: "\f0eb";}
+#n-Wissengruppen a::before {content: "\f19c";}
+
+/* -- Networking -- */
+#n-FFF-Call a::before {content: "\f098";}
+#n-Plena,-Safespace-&-Foren a::before {content: "\f1ae";}
+#n-Gremien-&-gewählte-Teams a::before {content: "\f182";}
+#n-Communication-Task-Force a::before {content: "\f130";}
+#n-PlenAG-Vernetzung a::before {content: "\f2ce";}
+#n-For-Future-Bewegungen a::before {content: "\f234";}
 
 /* -- Toolbox -- */
 #t-whatlinkshere a:before {content: "\f047";}
