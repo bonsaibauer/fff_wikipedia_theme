@@ -11,10 +11,10 @@
 
 }
 /* -- Mitmachen -- */
-#n-wie-schreibe-ich-einen-artikel? a:before {content: "\f040";}
+#n-wiki-einführung a:before {content: "\f040";}
 #n-recentchanges a:before {content: "\f0ae";}
-#n-alle-seiten a:before {content: "\f160";}
-#n-alle-kategorien a:before {content: "\f160";}
+#n-special:allpages a:before {content: "\f160";}
+#n-spezial:kategorien a:before {content: "\f160";}
 #n-randompage a:before {content: "\f074";}
 #n-help a:before {content: "\f128";}
 
@@ -85,8 +85,6 @@
 ** helppage|help
 * SEARCH
 * TOOLBOX
-
-
 
 * Demo
 ** FFF-Tools|FFF-Tools
