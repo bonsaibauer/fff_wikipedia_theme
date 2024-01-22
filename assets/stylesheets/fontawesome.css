@@ -11,8 +11,11 @@
 
 }
 /* -- Navigation -- */
+#n-Wie-schreibe-ich-einen-Artikel\?::before {content: "\f015";}
 #n-mainpage-description a:before {content: "\f015";}
 #n-recentchanges a:before {content: "\f0ae";}
+#n-Alle-Seiten::before {content: "\f015";}
+#n-Alle-Kategorien::before {content: "\f015";}
 #n-randompage a:before {content: "\f074";}
 #n-help a:before {content: "\f128";}
 #n-help-mediawiki a:before {content: "\f128";}
@@ -39,7 +42,7 @@
 
 /* -- Networking -- */
 #n-FFF-Call a::before {content: "\f098";}
-#n-Plena,-Safespaces-%26-Foren a::before {content: "\f022";}
+#n-Plena\,-Safespaces-\&-Foren a::before {content: "\f022";}
 #n-Gremien a::before {content: "\f182";}
 #n-CTF a::before {content: "\f130";}
 #n-PlenAG-Vernetzung a::before {content: "\f2ce";}
@@ -58,7 +61,7 @@
 #n-Rechtshilfe-Finanzkonzept a::before {content: "\f15c";}
 #n-Pressekonzept a::before {content: "\f15c";}
 #n-Chatkonzept a::before {content: "\f15c";}
-#n-Öffentlichkeitsarbeit-bzgl.-SboGs a::before {content: "\f1ea";}
+#n-Öffentlichkeitsarbeit-bzgl\.-SboGs a::before {content: "\f1ea";}
 
 /* -- Toolbox -- */
 #t-whatlinkshere a:before {content: "\f047";}
