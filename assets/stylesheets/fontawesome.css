@@ -10,16 +10,17 @@
 	width: 1em;
 
 }
-/* -- Navigation -- */
-#n-mainpage-description a:before {content: "\f015";}
+/* -- Mitmachen -- */
+#n-wie-schreibe-ich-einen-artikel? a:before {content: "\f040";}
 #n-recentchanges a:before {content: "\f0ae";}
+#n-alle-seiten a:before {content: "\f160";}
+#n-alle-kategorien a:before {content: "\f160";}
 #n-randompage a:before {content: "\f074";}
 #n-help a:before {content: "\f128";}
-#n-help-mediawiki a:before {content: "\f128";}
 
-/* -- About Us -- */
+/* -- Über uns -- */
 #n-Forderungen a::before {content: "\f015";}
-#n-Unsere-Forderungen a::before {content: "\f25a";}
+#n-Unsere-Forderungen a::before {content: "\f09e";}
 #n-Unsere-Kampagnen a::before {content: "\f247";}
 #n-FFF-Glossar a::before {content: "\f1ab";}
 
