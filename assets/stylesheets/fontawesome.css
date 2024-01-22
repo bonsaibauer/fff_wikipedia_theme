@@ -10,19 +10,25 @@
 	width: 1em;
 
 }
-/* -- Mitmachen -- */
-#n-wiki-einführung a:before {content: "\f040";}
+/* -- Navigation -- */
+#n-mainpage-description a:before {content: "\f015";}
 #n-recentchanges a:before {content: "\f0ae";}
-#n-special:allpages a:before {content: "\f160";}
-#n-spezial:kategorien a:before {content: "\f160";}
 #n-randompage a:before {content: "\f074";}
 #n-help a:before {content: "\f128";}
+#n-help-mediawiki a:before {content: "\f128";}
 
-/* -- Über uns -- */
+/* -- About Us -- */
 #n-Forderungen a::before {content: "\f015";}
-#n-Unsere-Forderungen a::before {content: "\f09e";}
+#n-Unsere-Forderungen a::before {content: "\f25a";}
 #n-Unsere-Kampagnen a::before {content: "\f247";}
 #n-FFF-Glossar a::before {content: "\f1ab";}
+
+/* -- Demo -- */
+#n-FFF-Tools a::before {content: "\f0c1";}
+#n-Streikzahlen-eintragen a::before {content: "\f2bd";}
+#n-Generatoren a::before {content: "\f013";}
+#n-Pressearbeit-für-OGs a::before {content: "\f1ea";}
+#n-Corporate-Identity a::before {content: "\f1fc";}
 
 /* -- Toolbox -- */
 #t-whatlinkshere a:before {content: "\f047";}
