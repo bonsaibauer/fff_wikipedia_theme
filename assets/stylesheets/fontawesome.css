@@ -30,6 +30,13 @@
 #n-Pressearbeit-für-OGs a::before {content: "\f1ea";}
 #n-Corporate-Identity a::before {content: "\f1fc";}
 
+/* -- Groups -- */
+#n-Ortsgruppen a::before {content: "\f0c0";}
+#n-Bundesebene a::before {content: "\f0e6";}
+#n-Arbeitsgruppen a::before {content: "\f085";}
+#n-Projektgruppen a::before {content: "\f0a1";}
+#n-Wissengruppen a::before {content: "\f0eb";}
+
 /* -- Toolbox -- */
 #t-whatlinkshere a:before {content: "\f047";}
 #t-recentchangeslinked a:before {content: "\f0c9";}
