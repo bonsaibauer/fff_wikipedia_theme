@@ -45,6 +45,21 @@
 #n-PlenAG-Vernetzung a::before {content: "\f2ce";}
 #n-For-Future-Bündnis a::before {content: "\f234";}
 
+/* -- Service -- */
+#n-Übersicht a::before {content: "\f128";}
+#n-Formulare a::before {content: "\f1ae";}
+#n-Infogruppen a::before {content: "\f1ea";}
+#n-Finanzbericht a::before {content: "\f15c";}
+
+/* -- Concepts -- */
+#n-FINTA-Strukturen a::before {content: "\f15c";}
+#n-Strukturpapier a::before {content: "\f15c";}
+#n-Finanzkonzept a::before {content: "\f15c";}
+#n-Rechtshilfe a::before {content: "\f15c";}
+#n-Pressekonzept a::before {content: "\f15c";}
+#n-Chatkonzept a::before {content: "\f15c";}
+#n-Öffentlichkeitsarbeit-bzgl.-SboGs a::before {content: "\f1ea";}
+
 /* -- Toolbox -- */
 #t-whatlinkshere a:before {content: "\f047";}
 #t-recentchangeslinked a:before {content: "\f0c9";}
