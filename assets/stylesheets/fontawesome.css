@@ -35,11 +35,11 @@
 #n-Bundesebene a::before {content: "\f0e6";}
 #n-Arbeitsgruppen a::before {content: "\f085";}
 #n-Projektgruppen a::before {content: "\f0a1";}
-#n-Wissengruppen a::before {content: "\f19c";}
+#n-Wissengruppen a::before {content: "\f200";}
 
 /* -- Networking -- */
 #n-FFF-Call a::before {content: "\f098";}
-#n-Plena,-Safespaces-&-Foren a::before {content: "\f1ae";}
+#n-Plena,-Safespaces-&-Foren a::before {content: "\f022";}
 #n-Gremien a::before {content: "\f182";}
 #n-CTF a::before {content: "\f130";}
 #n-PlenAG-Vernetzung a::before {content: "\f2ce";}
@@ -55,7 +55,7 @@
 #n-FINTA-Strukturen a::before {content: "\f15c";}
 #n-Strukturpapier a::before {content: "\f15c";}
 #n-Finanzkonzept a::before {content: "\f15c";}
-#n-Rechtshilfe a::before {content: "\f15c";}
+#n-Rechtshilfe-Finanzkonzept a::before {content: "\f15c";}
 #n-Pressekonzept a::before {content: "\f15c";}
 #n-Chatkonzept a::before {content: "\f15c";}
 #n-Öffentlichkeitsarbeit-bzgl.-SboGs a::before {content: "\f1ea";}
