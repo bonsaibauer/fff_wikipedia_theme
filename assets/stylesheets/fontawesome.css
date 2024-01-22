@@ -35,7 +35,7 @@
 #n-Bundesebene a::before {content: "\f0e6";}
 #n-Arbeitsgruppen a::before {content: "\f085";}
 #n-Projektgruppen a::before {content: "\f0a1";}
-#n-Wissengruppen a::before {content: "\f200";}
+#n-Wissensgruppen a::before {content: "\f200";}
 
 /* -- Networking -- */
 #n-FFF-Call a::before {content: "\f098";}
