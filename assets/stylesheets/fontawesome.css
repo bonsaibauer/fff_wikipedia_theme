@@ -39,7 +39,7 @@
 
 /* -- Networking -- */
 #n-FFF-Call a::before {content: "\f098";}
-#n-Plena,-Safespaces-&-Foren a::before {content: "\f022";}
+#n-Plena,-Safespaces-%26-Foren a::before {content: "\f022";}
 #n-Gremien a::before {content: "\f182";}
 #n-CTF a::before {content: "\f130";}
 #n-PlenAG-Vernetzung a::before {content: "\f2ce";}
