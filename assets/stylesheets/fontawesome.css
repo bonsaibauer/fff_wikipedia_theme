@@ -19,7 +19,9 @@
 
 /* -- About Us -- */
 #n-Forderungen a::before {content: "\f015";}
-#n-Unsere-Forderungen a::before {content: "\f015";}
+#n-Unsere-Forderungen a::before {content: "\f25a";}
+#n-Unsere-Kampagnen a::before {content: "\f247";}
+#n-FFF-Glossar a::before {content: "\f1ab";}
 
 /* -- Toolbox -- */
 #t-whatlinkshere a:before {content: "\f047";}
@@ -69,3 +71,56 @@
 #t-upload a:before {content: "\f093";}
 #t-cite a:before {content: "\f10d";}
 #feedlinks a:before {content: "\f09e";}
+
+
+/* -- Mediawiki:Sidebar -- */
+/* --
+* Mitmachen
+** Wiki - Einführung|Wie schreibe ich einen Artikel?
+** recentchanges-url|recentchanges
+** Special:AllPages|Alle Seiten
+** Spezial:Kategorien|Alle Kategorien
+** randompage-url|randompage
+** helppage|help
+* SEARCH
+* TOOLBOX
+
+
+
+* Demo
+** FFF-Tools|FFF-Tools
+** Streikzahlen eintragen|Streikzahlen eintragen
+** Generatoren|Generatoren
+** Pressearbeit für OGs|Pressearbeit für OGs
+** Corporate-Identity | Corporate Identity
+
+* Gruppen
+** Ortsgruppen| Ortsgruppen
+** Bundesebene | Bundesebene 
+** Arbeitsgruppen| Arbeitsgruppen
+** Projektgruppen | Projektgruppen
+** Wissensgruppen | Wissensgruppen
+
+* Vernetzung
+** FFF Call | FFF Call
+** Plena, Safespaces & Foren | Plena, Safespaces & Foren
+** Gremien & gewählte Teams | Gremien
+** Communication Task Force | CTF
+** PlenAG-Vernetzung | PlenAG-Vernetzung
+** For Future Bewegungen | For Future Bündnis
+
+* Service
+** Übersicht|Übersicht
+** Formulare|Formulare
+** Infogruppen|Infogruppen
+** Finanzbericht|Finanzbericht
+
+* Konzepte
+** FINTA-Strukturen|FINTA-Strukturen
+** Strukturpapier|Strukturpapier
+** Finanzkonzept|Finanzkonzept
+** Rechtshilfe Finanzkonzept|Rechtshilfe Finanzkonzept
+** Pressekonzept|Pressekonzept
+** Chatkonzpet|Chatkonzept
+** Öffentlichkeitsarbeit bzgl. SboGs|Öffentlichkeitsarbeit bzgl. SboGs
+-- */
