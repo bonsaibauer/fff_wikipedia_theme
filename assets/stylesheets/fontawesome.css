@@ -11,11 +11,11 @@
 
 }
 /* -- Navigation -- */
-#n-Wie-schreibe-ich-einen-Artikel\? a::before {content: "\f015";}
+#n-Wie-schreibe-ich-einen-Artikel\? a::before {content: "\f044";}
 #n-mainpage-description a:before {content: "\f015";}
 #n-recentchanges a:before {content: "\f0ae";}
-#n-Alle-Seiten a::before {content: "\f015";}
-#n-Alle-Kategorien a::before {content: "\f015";}
+#n-Alle-Seiten a::before {content: "\f0ca";}
+#n-Alle-Kategorien a::before {content: "\f0ca";}
 #n-randompage a:before {content: "\f074";}
 #n-help a:before {content: "\f128";}
 #n-help-mediawiki a:before {content: "\f128";}
