@@ -130,13 +130,12 @@ Bearbeite `MediaWiki:Sidebar`, um die neue Navigation zu übernehmen:
 ---
 
 ## 🎨 Design-Vorschau
-
 | Screenshot | Vorschau |
 |------------|----------|
 | **Bild 1** | ![Bild 1](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/1e46ab0d-3d6e-4cb5-b855-2923e4a699c0) |
 | **Bild 2** | ![Bild 2](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/479610e5-bc84-4dc1-adf5-27621b4435de) |
-| **Bild 3** | ![Bild 3](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/6f774f17-1f2c-432c-a0b8-14e1bd174be4) |
-| **Bild 4** | ![Bild 4](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/9e49dac0-1dd3-4550-a1c7-cf80262072db) |
+| **Bild 3** | <img src="https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/6f774f17-1f2c-432c-a0b8-14e1bd174be4" width="280"> |
+| **Bild 4** | <img src="https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/9e49dac0-1dd3-4550-a1c7-cf80262072db" width="280"> |
 
 ---
 
