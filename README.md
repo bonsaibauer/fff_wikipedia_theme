@@ -1,63 +1,79 @@
-# FFForeground Theme für wiki.fridaysforfuture.de
+[![Repository](https://img.shields.io/badge/Repository-fff__wikipedia__theme-blue?style=flat&logo=github)](https://github.com/bonsaibauer/fff_wikipedia_theme)
+![License](https://img.shields.io/badge/License-BSD%202--Clause-blue)
+[![Report Problem](https://img.shields.io/badge/Report-new_Problem_or_Issue-critical?style=flat&logo=github)](https://github.com/bonsaibauer/fff_wikipedia_theme/issues/new)
 
-Das Redesign von wiki.fridaysforfuture.de, basiert auf Foreground https://github.com/wikimedia/mediawiki-skins-Foreground und wurde nach den Corporate Identity Farben erstellt.
 
-## Download
+# 🌍 FFF Wikipedia Theme
 
-First, copy the Foreground source files in Medaiwki Path /skins, you can use git to clone the repository, which makes it very easy to update the code, using:
-```
-    git clone https://github.com/bonsaibauer/ffforeground-theme.git Foreground
-```
-After that, you can issue `git pull` to update the code at anytime.
-```
-    cd /var/www/html/skins/Foreground
-```
-```
-    git pull https://github.com/bonsaibauer/ffforeground-theme.git
+Ein an die **Corporate Identity** von Fridays for Future angepasstes MediaWiki-Skin, basierend auf dem beliebten [Foreground-Skin](https://github.com/wikimedia/mediawiki-skins-Foreground).
+
+> 🌱 Optimiert für [wiki.fridaysforfuture.de](https://wiki.fridaysforfuture.de)
+
+---
+
+## 📥 Installation
+
+### 1. Skin herunterladen
+
+Kopiere die Theme-Dateien in das `/skins`-Verzeichnis deiner MediaWiki-Installation:
+
+```bash
+cd /var/www/html/skins
+git clone https://github.com/bonsaibauer/fff_wikipedia_theme.git Foreground
 ```
 
-## Setup
+Zum Aktualisieren des Themes:
 
-Once the skin is in place add one the following lines to your "LocalSettings.php" file.
-
-### Update these settings:
-
+```bash
+cd /var/www/html/skins/Foreground
+git pull https://github.com/bonsaibauer/fff_wikipedia_theme.git
 ```
+
+---
+
+## ⚙️ Konfiguration
+
+### 1. In `LocalSettings.php` einfügen
+
+#### Bestehende Einstellungen anpassen:
+
+```php
 $wgSitename = 'FFF Infopoint';
 $wgMetaNamespace = 'Fridays for Future Wiki';
-$wgDefaultSkin='Foreground';
+$wgDefaultSkin = 'Foreground';
 ```
 
-### Add these settings:
-```
+#### Neue Einstellungen hinzufügen:
+
+```php
 wfLoadSkin( 'Foreground' );
-$wgSkipSkins = array( 'addyourskinshere eg. vector', 'vector2', '...' );
-```
+$wgSkipSkins = [ 'vector', 'vector2' ];
 
-```
-     $wgForegroundFeatures = [
-      'showActionsForAnon' => true,
-      'NavWrapperType' => 'divonly',
-      'showHelpUnderTools' => true,
-      'showRecentChangesUnderTools' => true,
-      'enableTabs' => false,
-      'wikiName' => $wgSitename,
-      'navbarIcon' => true,
-      'IeEdgeCode' => 1,
-      'showFooterIcons' => false,
-	  'addThisPUBID' => '',
-	  'useAddThisShare' => '',
-	  'useAddThisFollow' => ''
-     ];
+$wgForegroundFeatures = [
+  'showActionsForAnon' => true,
+  'NavWrapperType' => 'divonly',
+  'showHelpUnderTools' => true,
+  'showRecentChangesUnderTools' => true,
+  'enableTabs' => false,
+  'wikiName' => $wgSitename,
+  'navbarIcon' => true,
+  'IeEdgeCode' => 1,
+  'showFooterIcons' => false,
+  'addThisPUBID' => '',
+  'useAddThisShare' => '',
+  'useAddThisFollow' => ''
+];
 
 $wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 ```
 
-## Wiki-Settings
+---
 
-### We need to update Mediawiki:Sidebar:
+## 🧭 Wiki-Navigation anpassen
 
-```
+Bearbeite `MediaWiki:Sidebar`, um die neue Navigation zu übernehmen:
+
+```wiki
 * Mitmachen
 ** Wiki - Einführung|Wie schreibe ich einen Artikel?
 ** recentchanges-url|recentchanges
@@ -71,29 +87,29 @@ $wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 * Über uns
 ** Forderungen|Unsere Forderungen
 ** Kampagnenübersicht|Unsere Kampagnen
-** FFF Glossar | FFF Glossar
+** FFF Glossar|FFF Glossar
 
 * Demo
 ** FFF-Tools|FFF-Tools
 ** Streikzahlen eintragen|Streikzahlen eintragen
 ** Generatoren|Generatoren
 ** Pressearbeit für OGs|Pressearbeit für OGs
-** Corporate-Identity | Corporate Identity
+** Corporate-Identity|Corporate Identity
 
 * Gruppen
-** Ortsgruppen| Ortsgruppen
-** Bundesebene | Bundesebene 
-** Arbeitsgruppen| Arbeitsgruppen
-** Projektgruppen | Projektgruppen
-** Wissensgruppen | Wissensgruppen
+** Ortsgruppen|Ortsgruppen
+** Bundesebene|Bundesebene 
+** Arbeitsgruppen|Arbeitsgruppen
+** Projektgruppen|Projektgruppen
+** Wissensgruppen|Wissensgruppen
 
 * Vernetzung
-** FFF Call | FFF Call
-** Plena, Safespaces & Foren | Plena, Safespaces & Foren
-** Gremien & gewählte Teams | Gremien
-** Communication Task Force | CTF
-** PlenAG-Vernetzung | PlenAG-Vernetzung
-** For Future Bewegungen | For Future Bündnis
+** FFF Call|FFF Call
+** Plena, Safespaces & Foren|Plena, Safespaces & Foren
+** Gremien & gewählte Teams|Gremien
+** Communication Task Force|CTF
+** PlenAG-Vernetzung|PlenAG-Vernetzung
+** For Future Bewegungen|For Future Bündnis
 
 * Service
 ** Übersicht|Übersicht
@@ -111,14 +127,25 @@ $wgLogo = $wgScriptPath . '/skins/Foreground/logo/fff_earth_120px.png';
 ** Öffentlichkeitsarbeit bzgl. SboGs|Öffentlichkeitsarbeit bzgl. SboGs
 ```
 
--------------------------------------------
-# Example
+---
 
-![Bild 18 01 24 um 20 18](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/1e46ab0d-3d6e-4cb5-b855-2923e4a699c0)
-![Bild 18 01 24 um 20 21](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/479610e5-bc84-4dc1-adf5-27621b4435de)
-![Bild 18 01 24 um 20 19](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/6f774f17-1f2c-432c-a0b8-14e1bd174be4)
-![Bild 18 01 24 um 20 19 (1)](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/9e49dac0-1dd3-4550-a1c7-cf80262072db)
+## 🎨 Design-Vorschau
 
+| Screenshot | Vorschau |
+|------------|----------|
+| **Bild 1** | ![Bild 1](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/1e46ab0d-3d6e-4cb5-b855-2923e4a699c0) |
+| **Bild 2** | ![Bild 2](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/479610e5-bc84-4dc1-adf5-27621b4435de) |
+| **Bild 3** | ![Bild 3](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/6f774f17-1f2c-432c-a0b8-14e1bd174be4) |
+| **Bild 4** | ![Bild 4](https://github.com/bonsaibauer/fff-foreground-theme/assets/129884416/9e49dac0-1dd3-4550-a1c7-cf80262072db) |
 
+---
 
+## 🤝 Mitwirken
 
+Pull Requests, Bug-Reports oder Feature-Vorschläge sind jederzeit willkommen!
+
+---
+
+## 📎 Download
+
+🔽 [fff_wikipedia_theme.zip](https://github.com/bonsaibauer/fff_wikipedia_theme/archive/refs/heads/main.zip)
